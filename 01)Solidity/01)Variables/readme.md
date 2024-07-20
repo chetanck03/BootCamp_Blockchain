@@ -23,7 +23,7 @@
    - No reading or modification of state variables.
    - No function calls or storage access.
    - Example usage: `localVar()` function.
-
+```
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.8.2 <0.9.0;
 
