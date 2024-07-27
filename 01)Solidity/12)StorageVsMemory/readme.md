@@ -1,4 +1,4 @@
-# MyContract
+# StorageVsMemory :
 
 This Solidity contract demonstrates the differences between storage and memory in array manipulation.
 
