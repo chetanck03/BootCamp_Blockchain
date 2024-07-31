@@ -1,4 +1,4 @@
-# Solidity Polymorphism Example
+# Polymorphism 
 
 ## Overview
 
