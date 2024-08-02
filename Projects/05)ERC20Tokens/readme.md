@@ -1,6 +1,6 @@
 # ChetanToken
 
-## OpenZeppelin: https://wizard.openzeppelin.com/#erc20
+## OpenZeppelin: https://wizard.openzeppelin.com/#erc20](https://docs.openzeppelin.com/contracts/5.x/erc20
 ## Ethereum Sepolia Faucet: https://cloud.google.com/application/web3/faucet/ethereum/sepolia
 
 ChetanToken is an ERC20-compliant token created using OpenZeppelin's ERC20 contract. This token has a custom decimal setting and is initialized with a specified initial supply.
