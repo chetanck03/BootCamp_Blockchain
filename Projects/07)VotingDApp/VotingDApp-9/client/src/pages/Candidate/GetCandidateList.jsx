@@ -65,6 +65,9 @@ const GetCandidateList = () => {
                 className="w-24 h-24 object-cover rounded-full border-2 border-blue-500 mb-4"
                 src={`${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/images/CandidateImages/${candidate.candidateAddress}.png`}
                 alt={`${candidate.name}'s image`}
+                onError={(e) => {
+                  e.target.src = '/default.png'; // Replace with the actual default image path
+                }}
               />
               <h2 className="text-xl font-bold mb-2">{candidate.name}</h2>
               <p className="text-gray-400 text-sm mb-4">Party: {candidate.party}</p>

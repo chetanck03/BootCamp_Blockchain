@@ -76,7 +76,12 @@ const GetVoterList = () => {
                 className="w-24 h-24 object-cover rounded-full border-2 border-blue-500 mb-4"
                 src={`${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/images/VoterImages/${voter.voterAddress}.png`}
                 alt={`${voter.name}'s image`}
+                 onError={(e) => {
+                   e.target.src = '/default.png'; // Replace with the actual default image path
+              }}
               />
+             
+
               <h2 className="text-xl font-bold mb-2">{voter.name}</h2>
               <div className="bg-gray-700 rounded-lg p-4 w-full mb-4">
                 <div className="flex flex-col space-y-2">
