@@ -1,5 +1,3 @@
-//  Run file : cargo run --bin simple_rust_project
-
 // Importing the `io` module to handle user input
 use std::io;
 
