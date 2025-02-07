@@ -3,6 +3,9 @@
 ## Overview
 This Rust program defines a custom iterator using a struct and the `Iterator` trait.
 
+## What is an Iterator?
+An **iterator** is an object that allows sequential access to elements in a collection, one at a time. In Rust, the `Iterator` trait provides a standard way to implement iteration.
+
 ## Features
 - Implements a counter that iterates up to a specified limit.
 - Uses Rust's `Iterator` trait with an associated type.
